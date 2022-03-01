@@ -25,6 +25,7 @@ const renderLicenseBadge = (license) => {
 const generateMarkdown = (data) => {
     const licenseBadge = renderLicenseBadge(data.license);
     return `<div id="top"></div>
+${licenseBadge}
 <br/>
 <div align="center">
     <h1 align="center">${data.title}</h1>
@@ -70,7 +71,7 @@ ${data.tests}
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
-${licenseBadge}
+Distributed under the ${data.license}.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
