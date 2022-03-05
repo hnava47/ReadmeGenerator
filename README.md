@@ -34,6 +34,8 @@ Quickly and easily create a README file by using a command-line application to g
 ## Usage
 The user will be prompted with questions required to populate the README file. After typing or selecting each prompt, hit "Enter" to move forward. Once all prompts are completed, README.md file will be available.
 
+View walk-through video: [video](https://drive.google.com/file/d/1R4J0WAFpZlmJuYpo2ECUA1zMuK-M3dmF/view?usp=sharing)
+
 ![Demo](./img/demo.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
